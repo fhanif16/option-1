@@ -1,0 +1,46 @@
+.half-width img{
+    width:500px;
+    height: 400px;
+    margin-top: 5px;
+    padding-top: 5px;
+    
+}
+
+
+.row img{
+    width:300px;
+}
+.picture img{
+    width:100px;
+    height: 100px;
+}
+.half-width{
+  height: 100px;
+    display: inline;
+}
+.first-part{
+    display: grid;
+    border: 1px 1px 1px 1px solid white;
+    border-radius: 2px;
+    box-shadow: 5px;
+    background-color: rgb(235, 235, 235);
+}
+.brand-name img{
+    width:200px;
+    margin-left: 5px;
+}
+
+.card img{
+    width:100px;
+}
+
+
+.card{
+    border:none;
+}
+.footer{
+    display: inline-flex;
+    padding:5px;
+    margin: 5px;
+
+}
