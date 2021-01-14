@@ -1,12 +1,14 @@
 
 
 .first-part,.second-part,.third-part{
-    display: flex;
+    display: inline-flexbox;
+    
+   
     padding-right: 5px;
     
     border: 5px 5px 5px 5px solid white;
     border-radius: 2px;
-    box-shadow: 5px;
+    box-shadow: 10px;
     background-color: rgb(235, 235, 235);
 }
 
@@ -20,18 +22,40 @@
 }
 
 
-.card{
-    border:none;
-}
-.footer{
-    display: inline-flex;
-    padding:5px;
-    margin: 5px;
 
+
+.icon{
+    float: right;
+    margin-left: 95px;
+    margin-right: 2px;
+    padding: 5px;
+    display: flex;
 }
 .half-width img{
     width:400px;
 }
 .first-part img,.second-part img, .third-part img{
     width:100px;
+}
+.card{
+    border:none;
+
+}
+.font{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+}
+
+.col{
+    margin-bottom: 5px;
+}
+.pic img{
+    width:400px;
+}
+.price{
+    margin-bottom: 1px;
+}
+.footer{
+    display: flex;
 }
