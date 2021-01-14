@@ -12,7 +12,7 @@
     
     border: 10px 10px 10px 10px solid white;
     border-radius: 2px;
-    box-shadow: 10px;
+    box-shadow: 15px;
     background-color: rgb(201, 228, 219);
   
 }
@@ -32,7 +32,7 @@
 
 .icon{
     float: right;
-    margin-left: 95px;
+   margin-left: 50px;
     margin-right: 2px;
     padding: 5px;
     display: flex;
@@ -76,4 +76,8 @@
 }
 .col img{
     background-color:white;
+}
+.contain{
+    background-color: rgb(243, 210, 240);
+    border: 5px 5px 5px 5px solid;
 }
